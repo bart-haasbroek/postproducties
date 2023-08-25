@@ -250,5 +250,10 @@ const menuIsOpen = ref(false);
 .router-link-exact-active {
   color: #333;
   background: white;
+
+  @media only screen and (max-width: 767px) {
+    background-color: #0c6285;
+    color: white;
+  }
 }
 </style>
