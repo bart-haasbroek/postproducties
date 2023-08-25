@@ -130,7 +130,7 @@ const images = shuffle([
       </a>
       <a
         data-lg-size="1280-720"
-        data-src="//www.youtube.com/watch?v=EIUJfXk3_3w"
+        data-src="/videos/raindrops.mp4"
         data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
         data-sub-html="<h4>Puffin Hunts Fish To Feed Puffling | Blue Planet II | BBC Earth</h4><p>On the heels of Planet Earth II's record-breaking Emmy nominations, BBC America presents stunning visual soundscapes from the series' amazing habitats.</p>"
       >
