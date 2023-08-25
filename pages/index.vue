@@ -1,10 +1,6 @@
 <script lang="ts" setup>
 import Lightgallery from "lightgallery/vue/LightGalleryVue.umd.js";
 
-import lgVideo from "lightgallery/plugins/video/lg-video.umd.js";
-
-const plugins = [lgVideo];
-
 function shuffle(array) {
   let currentIndex = array.length,
     randomIndex;
@@ -112,40 +108,18 @@ const images = shuffle([
 <template>
   <div class="h-full">
     <Lightgallery
-      class="grid grid-cols-4 xl:grid-cols-5"
-      :settings="{ speed: 500, plugins: plugins }"
+      class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-5"
     >
       <a
-        data-lg-size="1280-720"
-        data-src="//www.youtube.com/watch?v=EIUJfXk3_3w"
-        data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
-        data-sub-html="<h4>Puffin Hunts Fish To Feed Puffling | Blue Planet II | BBC Earth</h4><p>On the heels of Planet Earth II's record-breaking Emmy nominations, BBC America presents stunning visual soundscapes from the series' amazing habitats.</p>"
+        class="relative cursor-pointer group"
+        v-for="{ url, thumb } of images"
+        :data-src="`/images/${url}`"
       >
-        <img
-          width="300"
-          height="100"
-          class="img-responsive"
-          src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
-        />
-      </a>
-      <a
-        data-lg-size="1280-720"
-        data-src="/videos/raindrops.mp4"
-        data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
-        data-sub-html="<h4>Puffin Hunts Fish To Feed Puffling | Blue Planet II | BBC Earth</h4><p>On the heels of Planet Earth II's record-breaking Emmy nominations, BBC America presents stunning visual soundscapes from the series' amazing habitats.</p>"
-      >
-        <img
-          width="300"
-          height="100"
-          class="img-responsive"
-          src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
-        />
+        <img class="img-responsive" :src="`/images/${thumb}`" />
+        <div
+          class="absolute w-full h-full left-0 top-0 bg-slate-300 opacity-0 group-hover:opacity-50 transition-all duration-300"
+        ></div>
       </a>
     </Lightgallery>
-    <!-- <Lightgallery class="grid grid-cols-4 xl:grid-cols-5">
-      <a v-for="{ url, thumb } of images" :data-src="`/images/${url}`">
-        <img class="img-responsive" :src="`/images/${thumb}`" />
-      </a>
-    </Lightgallery> -->
   </div>
 </template>

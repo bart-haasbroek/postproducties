@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <header class="h-64 overflow-hidden border-b-8 border-blue-200">
+    <header class="h-64 overflow-hidden border-b-8 border-[#0c6285]">
       <img src="/images/test.jpg" alt="" />
     </header>
 
