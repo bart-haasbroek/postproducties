@@ -1,4 +1,4 @@
-import Lightgallery from 'lightgallery/vue/lightGalleryVue.umd.js';
+import Lightgallery from 'lightgallery/vue/LightGalleryVue.umd.js';
 import lgVideo from "lightgallery/plugins/video";
 import s2 from 'lightgallery/css/lightgallery-bundle.min.css';
 import s3 from 'lightgallery/css/lg-video.css';
