@@ -6,7 +6,9 @@
       <img src="/images/test.jpg" alt="" />
     </header>
 
-    <div class="flex gap-6 p-12 max-w-7xl mx-auto">
+    <div
+      class="grid grid-cols-1 md:grid-cols-[60%_40%] gap-6 p-4 lg:p-12 max-w-7xl mx-auto"
+    >
       <div class="prose">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, modi
@@ -28,7 +30,11 @@
         </p>
       </div>
       <div>
-        <img src="/images/test.jpg" alt="" />
+        <img
+          class="rounded border-2 overflow-hidden border-[#0c6285]"
+          src="/images/over-mij.jpg"
+          alt=""
+        />
       </div>
     </div>
   </div>
