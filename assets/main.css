@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+div#__nuxt {
+  min-height: 100%;
+}
+
+.gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(168, 208, 230, 1) 33%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/* .slide-leave-active,
+.slide-enter-active {
+  transition: 30.5s;
+}
+.slide-enter {
+  transform: translate(100%, 0);
+}
+.slide-leave-to {
+  transform: translate(-100%, 0);
+}
+.slide-enter-to {
+  transform: translate(0, 0);
+} */
