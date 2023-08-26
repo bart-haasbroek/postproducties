@@ -46,7 +46,7 @@ function shuffle(array) {
 <template>
   <div class="h-full">
     <Lightgallery
-      class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-5"
+      class="grid grid-cols-1 md:grid-cols-2"
       :settings="{ speed: 500, plugins: plugins }"
     >
       <a
@@ -56,7 +56,25 @@ function shuffle(array) {
         <img src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg" />
       </a>
       <a
-        data-video='{"source": [{"src":"/videos/raindrops.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true}}'
+        data-video='{"source": [{"src":"/videos/raindrops.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true, "loop": true}}'
+        data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
+      >
+        <img src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg" />
+      </a>
+      <a
+        data-video='{"source": [{"src":"/videos/raindrops.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true, "loop": true}}'
+        data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
+      >
+        <img src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg" />
+      </a>
+      <a
+        data-video='{"source": [{"src":"/videos/raindrops.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true, "loop": true}}'
+        data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
+      >
+        <img src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg" />
+      </a>
+      <a
+        data-video='{"source": [{"src":"/videos/raindrops.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true, "loop": true}}'
         data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
       >
         <img src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg" />

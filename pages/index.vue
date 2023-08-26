@@ -24,83 +24,15 @@ function shuffle(array) {
 const images = shuffle([
   {
     url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
+    thumb: "05-16-2018-Marianne-12-1024x683.jpg",
+  },
+  {
+    url: "Workshop_V1-19-2000x1200.jpg",
+    thumb: "Workshop_V1-19-1024x682.jpg",
   },
   {
     url: "05-16-2018-Marianne-21-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-21-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
-  },
-  {
-    url: "05-16-2018-Marianne-12-2000x1200.jpg",
-    thumb: "05-16-2018-Marianne-12-2000x1200.jpg",
+    thumb: "05-16-2018-Marianne-21-1024x683.jpg",
   },
 ]);
 </script>
@@ -117,7 +49,7 @@ const images = shuffle([
       >
         <img class="img-responsive" :src="`/images/${thumb}`" />
         <div
-          class="absolute w-full h-full left-0 top-0 bg-slate-300 opacity-0 group-hover:opacity-50 transition-all duration-300"
+          class="absolute w-full h-full left-0 top-0 bg-[#0c6285] opacity-0 group-hover:opacity-50 transition-all duration-300"
         ></div>
       </a>
     </Lightgallery>

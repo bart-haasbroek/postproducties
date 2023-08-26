@@ -9,20 +9,20 @@ const plugins = [lgVideo];
 <template>
   <div class="h-full">
     <Lightgallery
-      class="grid grid-cols-4 2xl:grid-cols-5"
+      class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-5"
       :settings="{ speed: 500, plugins: plugins }"
     >
       <a
-        data-src="//www.youtube.com/watch?v=EIUJfXk3_3w"
-        data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
+        data-video='{"source": [{"src":"/animations/3d Pen.mp4", "type":"video/mp4"}], "attributes": {"preload": true, "playsinline": true, "controls": false, "loop": true}}'
+        data-poster="/images/over-mij.jpg"
       >
-        <img src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg" />
+        <img src="/images/over-mij.jpg" />
       </a>
       <a
-        data-video='{"source": [{"src":"/videos/raindrops.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true}}'
-        data-poster="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg"
+        data-video='{"source": [{"src":"/animations/Telefoon transfer testklein.mp4", "type":"video/mp4"}], "attributes": {"preload": true, "playsinline": true, "controls": false, "loop": true}}'
+        data-poster="/images/over-mij.jpg"
       >
-        <img src="https://img.youtube.com/vi/EIUJfXk3_3w/maxresdefault.jpg" />
+        <img src="/images/05-16-2018-Marianne-12-2000x1200.jpg" />
       </a>
     </Lightgallery>
   </div>

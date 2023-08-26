@@ -10,9 +10,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'baloo': ['"Baloo Tamma 2"', 'cursive'],
-      },
       colors: {
         primary: {
           // DEFAULT: colors.slate[200],
