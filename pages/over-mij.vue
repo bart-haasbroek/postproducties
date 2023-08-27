@@ -2,8 +2,12 @@
 
 <template>
   <div>
-    <header class="h-64 overflow-hidden border-b-8 border-[#0c6285]">
-      <img src="/images/test.jpg" alt="" />
+    <header class="overflow-hidden border-b-8 border-[#0c6285] h-80">
+      <img
+        class="h-full w-full object-cover"
+        src="/images/website-banner.jpg"
+        alt=""
+      />
     </header>
 
     <div
