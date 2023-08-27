@@ -110,9 +110,42 @@ const images = shuffle([
     url: "Workshop_V2-1-2000x1200.jpg",
     thumb: "Workshop_V2-1-1024x682.jpg",
   },
+
   {
-    url: "08-24-2020_Christine-en-Apollo-152.jpg",
+    url: "08-24-2020_Christine-en-Apollo-152-2048x1365.jpg",
     thumb: "08-24-2020_Christine-en-Apollo-152-1024x683.jpg",
+  },
+  {
+    url: "08-24-2020_Christine-en-Apollo-205-2048x1365.jpg",
+    thumb: "08-24-2020_Christine-en-Apollo-205-1024x683.jpg",
+  },
+  {
+    url: "08-24-2020_Christine-en-Apollo-223-2048x1365.jpg ",
+    thumb: "08-24-2020_Christine-en-Apollo-223-1024x683.jpg",
+  },
+  {
+    url: "08-24-2020_Christine-en-Apollo-265-2048x1365.jpg",
+    thumb: "08-24-2020_Christine-en-Apollo-265-1024x683.jpg",
+  },
+  {
+    url: "20180610-1455DSC03596-2048x1346.jpg",
+    thumb: "20180610-1455DSC03596-1024x673.jpg",
+  },
+  {
+    url: "AnneMarjolein-07-10-15-4-1024x682.jpg",
+    thumb: "AnneMarjolein-07-10-15-4-2048x1363.jpg",
+  },
+  {
+    url: "DSC08666-683x1024.jpg",
+    thumb: "DSC08666-1365x2048.jpg",
+  },
+  {
+    url: "VikingFit-02-2022-12-1024x683.jpg",
+    thumb: "VikingFit-02-2022-12-2048x1365.jpg",
+  },
+  {
+    url: "VikingFit-02-2022-119-1024x683.jpg",
+    thumb: "VikingFit-02-2022-119-2048x1365.jpg",
   },
 ]);
 </script>
@@ -128,7 +161,7 @@ const images = shuffle([
         :data-src="`/images/${url}`"
       >
         <img
-          class="img-responsive w-full h-full object-cover"
+          class="img-responsive w-full h-full object-cover object-top"
           :src="`/images/${thumb}`"
         />
         <div
