@@ -15,22 +15,30 @@
     >
       <div class="prose">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, modi
-          quasi. Id esse quaerat, iste architecto fugit odio similique
-          voluptatem neque culpa accusantium alias, ipsam voluptas officia
-          nostrum. Placeat, qui?
+          Wat leuk dat je mijn werk aan het bekijken bent! Als je dit aan het
+          lezen bent wil je vast wat meer horen over waar ik vandaan kom.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, modi
-          quasi. Id esse quaerat, iste architecto fugit odio similique
-          voluptatem neque culpa accusantium alias, ipsam voluptas officia
-          nostrum. Placeat, qui?
+          Als kind was ik altijd al dol op film en fotografie. Vroeg deed ik
+          altijd alsof mijn handen een camera waren. Mijn eerste camera was de
+          oude camera van mijn vader, daar moesten nog bandjes in. Ik maakte dan
+          het liefst stop-motions of reclame filmpjes. Als het bandje vol was
+          moest ik terug spoelen en dan filmde ik er gewoon weer overheen.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, modi
-          quasi. Id esse quaerat, iste architecto fugit odio similique
-          voluptatem neque culpa accusantium alias, ipsam voluptas officia
-          nostrum. Placeat, qui?
+          Mijn passie voor film werd daardoor alleen maar meer. En ik droomde er
+          als kind dan ook van om filmregisseur te worden. Zo was ik een keer op
+          vakantie met mijn ouders, broertje en zus in België. Ik had destijds
+          een Nintendo DS met het spel “Big Brain Academy” een spel met kleine
+          minigames, en aan het einde van de rondes komt er dan een beroep naar
+          voren dat je het beste kan doen. Ik weet nog goed die dag dat het
+          spelletje zei dat ik filmregisseur kon worden. Vol trots liet ik het
+          aan mijn ouders zien.
+        </p>
+        <p>
+          Ik bleef video’s maken, en toen ik in 2013 klaar was met de middelbare
+          school ben ik gaan studeren op het Grafisch Lyceum Utrecht waar ik de
+          opleiding Audio Visueel Vormgever en Animatie heb afgerond.
         </p>
       </div>
       <div>
