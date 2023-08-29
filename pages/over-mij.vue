@@ -40,6 +40,11 @@
           school ben ik gaan studeren op het Grafisch Lyceum Utrecht waar ik de
           opleiding Audio Visueel Vormgever en Animatie heb afgerond.
         </p>
+
+        <p>
+          Mijn passie heb ik inmiddels gevonden in het editen van video’s. En
+          daar wil ik dan ook in door blijven gaan.
+        </p>
       </div>
       <div>
         <img
