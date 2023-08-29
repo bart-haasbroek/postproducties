@@ -9,7 +9,7 @@ const plugins = [lgVideo];
 <template>
   <div class="h-full">
     <Lightgallery
-      class="grid grid-cols-1 md:grid-cols-2"
+      class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3"
       :settings="{ speed: 500, plugins: plugins }"
     >
       <a

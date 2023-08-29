@@ -44,7 +44,7 @@
       <div>
         <img
           class="rounded border-2 overflow-hidden border-[#0c6285]"
-          src="/images/over-mij.jpg"
+          src="/images/Gia-2022-33-1536x1024.jpg"
           alt=""
         />
       </div>
