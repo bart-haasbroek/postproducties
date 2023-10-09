@@ -55,6 +55,17 @@ const plugins = [lgVideo];
       </a>
 
       <a
+        data-video='{"source": [{"src":"/videos/3.2 - Salto Interview_def-ENG-nieuw-klein2.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true, "loop": true}}'
+        data-poster="/images/thumbs/thumb07-900x500.png"
+        class="img-responsive w-full h-full object-cover object-top relative cursor-pointer group"
+      >
+        <img src="/images/thumbs/thumb07-900x500.png" />
+        <div
+          class="absolute w-full h-full left-0 top-0 bg-[#0c6285] opacity-0 group-hover:opacity-50 transition-all duration-300"
+        ></div>
+      </a>
+
+      <a
         data-video='{"source": [{"src":"/videos/4 -1920x1080-NL- TITANIC - Landal Valentijns campnge_DEF.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true, "loop": true}}'
         data-poster="/images/thumbs/thumb04-900x500.png"
         class="img-responsive w-full h-full object-cover object-top relative cursor-pointer group"
@@ -86,6 +97,18 @@ const plugins = [lgVideo];
           class="absolute w-full h-full left-0 top-0 bg-[#0c6285] opacity-0 group-hover:opacity-50 transition-all duration-300"
         ></div>
       </a>
+
+      <a
+        data-video='{"source": [{"src":"/videos/8 - His Glory Reveald_DEF-klein2.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true, "loop": true}}'
+        data-poster="/images/thumbs/thumb08-900x500.png"
+        class="img-responsive w-full h-full object-cover object-top relative cursor-pointer group"
+      >
+        <img src="/images/thumbs/thumb08-900x500.png" />
+        <div
+          class="absolute w-full h-full left-0 top-0 bg-[#0c6285] opacity-0 group-hover:opacity-50 transition-all duration-300"
+        ></div>
+      </a>
+
     </Lightgallery>
   </div>
 </template>
